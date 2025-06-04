@@ -1,5 +1,6 @@
 body {
   background-color: rgba(162, 162, 168, 0.384);
+  padding-bottom: 60px;
 }
 
 .closet-header {
@@ -8,12 +9,24 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  max-width: 1270px;
+  max-width: 12100px;
   margin: auto;
 }
 
 .closet-left-section {
  line-height: 0;
+}
+
+.menu-btn {
+  width: 40px;
+  margin-left: 10px;
+}
+
+.closet-right-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
 }
 
 .trend-button {
@@ -65,6 +78,7 @@ body {
 .closet-middle-section {
   display: flex;
   max-width: 500px;
+  background-color: blue;
 }
 
 .closet-motto {
