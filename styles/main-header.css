@@ -1,0 +1,89 @@
+body {
+  background-color: rgba(162, 162, 168, 0.384);
+}
+
+.closet-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.trend-button {
+  padding: 20px;
+  border-radius: 30px;
+  border: 2px solid rgb(129, 89, 89);
+}
+
+.trend-button:hover {
+  color: white;
+  background-color: rgb(129, 89, 89);
+  cursor: pointer;
+}
+
+.search-bar {
+  flex: 1;
+  font-size: 16px;
+  height: 38px;
+  padding-left: 15px;
+  border: 2px solid rgb(129, 89, 89);
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  width: 100%;
+}
+
+.search-button {
+  background-color: rgb(129, 89, 89);
+  width: 45px;
+  height: 42px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+.search-icon {
+  height: 22px;
+  margin: 0 auto;
+}
+
+.closet-middle-section {
+  display: flex;
+  max-width: 500px;
+}
+
+.closet-motto {
+  font-size: 25px;
+  font-style: oblique;
+  color: rgb(124, 29, 29);
+}
+
+.brand-name {
+  font-size: 2.5rem;
+  color: rgb(124, 29, 29);
+  margin: 20px 0;
+}
+
+@media (max-width: 600px) {
+  .closet-header {
+    flex-direction: column;
+    gap: 10px; /* Space between elements */
+    padding: 10px;
+  }
+  .closet-middle-section {
+    max-width: 100%; /* Full width on mobile */
+  }
+  .trend-button {
+    width: 100%; /* Full width button */
+    text-align: center;
+  }
+}
